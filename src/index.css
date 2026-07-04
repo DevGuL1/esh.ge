@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=FiraGO:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "FiraGO", "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-sazano-wine: #5A5A40;
+  --color-sazano-gold: #c39c59;
+  --color-sazano-green: #8c8c73;
+  --color-sazano-olive: #5A5A40;
+  --color-sazano-sage: #8c8c73;
+  --color-sazano-sand: #efeee5;
+  --color-sazano-paper: #f8f7f2;
+  --color-sazano-charcoal: #33332d;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8f7f2;
+  color: #33332d;
+}
+
+/* Page Break settings for printing the Word/PDF brief */
+@media print {
+  .print-page {
+    page-break-after: always;
+  }
+}
+

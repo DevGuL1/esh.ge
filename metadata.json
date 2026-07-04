@@ -1,0 +1,6 @@
+{
+  "name": "სასტუმრო საზანო - ბრიფი და პანელი",
+  "description": "სასტუმრო საზანოს (Hotel Sazano) ვებ-გვერდის, ჯავშნების, SMS მარკეტინგის, SEO-ს და ადმინისტრაციული პანელის დეტალური ბრიფ-გეგმა და ინტერაქციული სიმულატორი.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
